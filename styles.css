@@ -1,0 +1,47 @@
+body{
+	background-color:#37474f;
+}
+
+iframe{
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.container{
+	box-shadow: 1px 1px 12px 5px #2c3238;
+	height: 768px;
+	margin-top: 2em;
+	min-width: 1366px;
+	padding: 0px;
+	padding: 0px;
+}
+
+.container>div{
+	padding: 0px;
+}
+	
+
+.con-video1{
+	background: #000;
+	height: 50%;
+	padding: 0;
+}
+
+.con-video2{
+	background: blue;
+	height: 50%;
+	padding: 0;
+}
+
+.con-video3{
+	background: green;
+	height: 50%;
+	padding: 0;
+}
+
+.con-video4{
+	background: yellow;
+	height: 50%;
+	padding: 0;
+}
