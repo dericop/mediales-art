@@ -13,6 +13,7 @@ iframe{
 	height: 678px;
 	margin-top: 2em;
 	max-width: 900px;
+	min-width: 900px;
 	padding: 0px;
 	padding: 0px;
 }
@@ -28,19 +29,19 @@ iframe{
 }
 
 .con-video2{
-	background: blue;
+	background: #000;
 	height: 50%;
 	padding: 0;
 }
 
 .con-video3{
-	background: green;
+	background: #000;
 	height: 50%;
 	padding: 0;
 }
 
 .con-video4{
-	background: yellow;
+	background: #000;
 	height: 50%;
 	padding: 0;
 }
