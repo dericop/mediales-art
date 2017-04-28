@@ -20,7 +20,7 @@ function onYouTubeIframeAPIReady() {
 
 function loadVideos(){
   player1 = new YT.Player('video1', {
-    videoId: 'M7lc1UVf-VE',
+    videoId: 'xGhoqGPcN7A',
     playerVars: { 'autoplay': 1, 'controls': 0, 'showinfo':0, 'modestbranding':1, 'rel':0},
     events: {
       'onReady': onPlayer1Ready,
@@ -29,7 +29,7 @@ function loadVideos(){
   });
 
   player2 = new YT.Player('video2', {
-    videoId: 'M7lc1UVf-VE',
+    videoId: 'Ka4Dj_BVEh4',
     playerVars: { 'autoplay': 1, 'controls': 0, 'showinfo':0, 'modestbranding':1, 'rel':0},
     events: {
       'onReady': onPlayer2Ready,
@@ -39,7 +39,7 @@ function loadVideos(){
 
   player3 = new YT.Player('video3', {
     frameborder: 0,
-    videoId: 'M7lc1UVf-VE',
+    videoId: 'QbYC4wnad7Q',
     playerVars: { 'autoplay': 1, 'controls': 0, 'showinfo':0, 'modestbranding':1, 'rel':0},
     events: {
       'onReady': onPlayer3Ready,
@@ -48,7 +48,7 @@ function loadVideos(){
   });
 
   player4 = new YT.Player('video4', {
-    videoId: 'M7lc1UVf-VE',
+    videoId: 'I5QrfzIx7e0',
     playerVars: { 'autoplay': 1, 'controls': 0, 'showinfo':0, 'modestbranding':1, 'rel':0},
     events: {
       'onReady': onPlayer4Ready,
