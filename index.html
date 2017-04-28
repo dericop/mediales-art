@@ -12,11 +12,11 @@
 			<div class="container-video col-xs-6 col-md-6 con-video1">
 				<div class="menu">
 					<div class="button-container">
-						<button type="button" class="btn btn-default btn-lg">
-	  						<span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+						<button type="button" onClick="toglePlay(1)" class="btn btn-default btn-lg">
+	  						<span id="icon-play-1" class="glyphicon glyphicon-pause" aria-hidden="true"></span>
 						</button>
-						<button type="button" class="btn btn-default btn-lg">
-	  						<span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+						<button type="button" onClick="togleVolume(1)" class="btn btn-default btn-lg right-button">
+	  						<span id="icon-volume-1" class="glyphicon glyphicon-volume-off" aria-hidden="true"></span>
 						</button>
 					</div>
 					
@@ -27,11 +27,11 @@
 			<div class="container-video col-xs-6 col-md-6 con-video2">
 				<div class="menu">
 					<div class="button-container">
-						<button type="button" class="btn btn-default btn-lg">
-	  						<span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+						<button type="button" onClick="toglePlay(2, this)" class="btn btn-default btn-lg">
+	  						<span id="icon-play-2" class="glyphicon glyphicon-pause" aria-hidden="true"></span>
 						</button>
-						<button type="button" class="btn btn-default btn-lg">
-	  						<span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+						<button type="button" onClick="togleVolume(2)" class="btn btn-default btn-lg right-button">
+	  						<span id="icon-volume-2" class="glyphicon glyphicon-volume-off" aria-hidden="true"></span>
 						</button>
 					</div>
 				</div>
@@ -44,11 +44,11 @@
 			<div class="container-video col-xs-6 col-md-6 con-video3">
 				<div class="menu">
 					<div class="button-container">
-						<button type="button" class="btn btn-default btn-lg">
-	  						<span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+						<button type="button" onClick="toglePlay(3)" class="btn btn-default btn-lg">
+	  						<span id="icon-play-3" class="glyphicon glyphicon-pause" aria-hidden="true"></span>
 						</button>
-						<button type="button" class="btn btn-default btn-lg">
-	  						<span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+						<button type="button" onClick="togleVolume(3)" class="btn btn-default btn-lg right-button">
+	  						<span id="icon-volume-3" class="glyphicon glyphicon-volume-off" aria-hidden="true"></span>
 						</button>
 					</div>
 				</div>
@@ -58,17 +58,27 @@
 			<div class="container-video col-xs-6  col-md-6 con-video4">
 				<div class="menu">
 					<div class="button-container">
-						<button type="button" class="btn btn-default btn-lg">
-	  						<span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+						<button type="button" onClick="toglePlay(4)" class="btn btn-default btn-lg">
+	  						<span id="icon-play-4" class="glyphicon glyphicon-pause" aria-hidden="true"></span>
 						</button>
-						<button type="button" class="btn btn-default btn-lg">
-	  						<span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+						<button type="button" onClick="togleVolume(4)" class="btn btn-default btn-lg right-button">
+	  						<span id="icon-volume-4" class="glyphicon glyphicon-volume-off" aria-hidden="true"></span>
 						</button>
 					</div>
 				</div>
 				<div id="video4">
 				</div>
 			</div>	
+		</div>
+
+		<div class="col-md-12 col-xs-12">
+			<div class="jumbotron">
+			  <h5>Autores: Carmenza Gallego - Lupe Laserna - Nelson Espejo.</h5>
+			  <hr>
+			  <h4>Instrucciones</h4>
+			  
+			  <p>Para interactuar ubíque el puntero sobre cada video y cambie su estado a detenido y/o silenciado.</p>
+			</div>
 		</div>
 	</div>
 
